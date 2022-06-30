@@ -1,10 +1,7 @@
 spring:
   application:
     name: admin-service
-  boot:
-    admin:
-      ui:
-        public-url: https://easycloud-admin-service.herokuapp.com
+
 server:
   port: ${PORT:8080}
 
